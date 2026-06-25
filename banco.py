@@ -4,3 +4,7 @@ idade = int(input('sua idade?: '))
 
 if idade < 18:
     print('empréstimo negado por idade')
+else:
+    print('Idade aprovada, prosseguindo...')
+
+    
