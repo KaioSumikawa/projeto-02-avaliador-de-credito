@@ -14,4 +14,5 @@ parcela = valor_emprestimo / meses
 
 print(f'parcela mensal: R${parcela:.2f}')
 
-if 
+if parcela > salario_mensal * 0.30:
+    print('Empréstimo NEGADO')
