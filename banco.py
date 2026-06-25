@@ -5,6 +5,6 @@ idade = int(input('sua idade?: '))
 if idade < 18:
     print('empréstimo negado por idade')
 else:
-    print('Idade aprovada, prosseguindo...')
+    print('idade aprovada, prosseguindo...')
 
-    
+valor_emprestimo = float(input('digite valor do empréstimo'))
