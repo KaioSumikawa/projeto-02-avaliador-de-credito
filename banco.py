@@ -15,4 +15,6 @@ parcela = valor_emprestimo / meses
 print(f'parcela mensal: R${parcela:.2f}')
 
 if parcela > salario_mensal * 0.30:
-    print('Empréstimo NEGADO')
+    print('empréstimo negado')
+else:
+    print('emprestimo aprovado')
