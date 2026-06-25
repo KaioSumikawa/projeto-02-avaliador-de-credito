@@ -8,3 +8,10 @@ else:
     print('idade aprovada, prosseguindo...')
 
 valor_emprestimo = float(input('digite valor do empréstimo'))
+meses = int(input('quantos meses pagar?'))
+
+parcela = valor_emprestimo / meses
+
+print(f'parcela mensal: R${parcela:.2f}')
+
+if 
